@@ -1,0 +1,44 @@
+/* Import fonts from google fonts */
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap");
+
+.pageTitle {
+  margin: 20px;
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: rgb(243, 13, 25);
+  font-size: 6rem;
+}
+
+.pageSubHeading {
+  font-family: "ZCOOL KuaiLe", cursive;
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+input[type="text"] {
+  width: 13%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  background-color: #81c9af;
+  color: white;
+}
+
+button {
+  position: center;
+  background-color: #19a0d9;
+  color: #fff;
+  font-family: "ZCOOL KuaiLe", cursive;
+  padding: 8px 15px;
+}
+
+.weather__key {
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 1.6rem;
+  color: rgb(1, 87, 168);
+}
+
+.weather__value {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
